@@ -1,0 +1,177 @@
+  /* Style the header with a grey background and some padding */
+  .header {
+    overflow: hidden;
+    background-color: #000000;
+    padding: 10px 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgba(2, 43, 11, 0.945);
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+
+
+  .wrapper {
+    margin: 0px auto 0;
+    width: 100%;
+    max-width: 680px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h1 {
+    letter-spacing: 1px;
+  }
+  
+  
+  
+  .form {
+    width: 100%;
+    margin: 25px 0;
+  }
+  
+  .top-form,
+  .middle-form,
+  .bottom-form {
+    width: 100%;
+    min-height: 65px;
+    margin: 10px 0;
+  }
+  
+  .form input[type="text"],
+  .form textarea {
+    border: 2px solid #fff;
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 2px;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+  
+  .form input:focus,
+  .form textarea:focus {
+    border-color: #4ca1af;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+      0 0 8px rgba(76, 161, 175, 0.5);
+  }
+  
+  .form .label {
+    margin-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  
+  .top-form .inner-form {
+    width: 29.9%;
+    float: left;
+    margin-right: 5%;
+  }
+  
+  .top-form .inner-form:last-child {
+    margin-right: 0;
+  }
+  
+  
+ 
+  .middle-form {
+    clear: both;
+  }
+  
+  
+  .bottom-form textarea {
+    height: 80px;
+  }
+  
+  .btn {
+    background: #4ca1af;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+  
+  ::-webkit-input-placeholder {
+   
+    font-family: "Kavivanar", cursive;
+  }
+  ::-moz-placeholder {
+    
+    font-family: "Kavivanar", cursive;
+  }
+  :-ms-input-placeholder {
+   
+    font-family: "Kavivanar", cursive;
+  }
+  
+  @media screen and (max-width: 460px) {
+    .top-form .inner-form {
+      width: 100%;
+      margin: 5px 0;
+    }
+    .top-form,
+    .middle-form,
+    .bottom-form {
+      margin: 5px 0;
+    }
+    .form {
+      margin-top: 10px;
+    }
+  }
+
+    /*purchase now page design========================================================================================================================================*/
+
+    .show{
+      background-color: green;
+    }
+  
+  
+  
+    .css{
+      background-color: #fff;
+      width: 300px;
+      color: black;
+    }
+
+    
+
+   

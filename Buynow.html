@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSSpages/style2.css">
+        <script src="buynow.js" async></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title> ECO FRIENDLY PRODUCTS OF SRI LANKA </title>
+    </head>
+    <body background="Images\eco_leaves_and_green_wave_vector_519145.jpg">
+      <script src="script.js"></script>
+      <br>  
+      <br>
+
+      <div class="header">
+            <a href="#default" class="logo">ECO FRIENDLY</a>
+            <div class="header-right">
+              <a href="Homepage.html">Home</a>
+              <a href="Types.html">Type</a>
+              <a href="Manufacture.html">Manufacture</a>
+              <a href="Contact.html">Contact</a>
+              <a class="active" href="Buynow.html">Buynow</a>
+            </div>
+          </div>
+            <br>
+            <br>
+            <div class="wrapper">
+              <div class="content">
+                <h1>ECO-PRODUCTS ORDERING SYSTEM</h1>
+                <p>To provide you with the best.</p>
+              </div>
+            
+              <div class="form">
+            
+                <div class="top-form">
+                  <div class="inner-form">
+                    <div class="label">Product choice</div>
+                    <select class="menue" id="menue">
+                      <option value="1000" >Eco-Products SL</option>
+                      <option value="1500" selected>Ecoware Lanka</option>
+                      <option value="1000" >Trickle Down</option>
+                      <option value="2000"  >Back to Earth</option>
+                  </select>
+      
+                  </div>
+                  <div class="inner-form">
+                    <div class="label">Select Size</div>
+                    <select class="cus" id="size">
+                      <option value="0" >Small</option>
+                      <option value="2500" selected>Medium</option>
+                      <option value="5000" >Large</option>
+                  </select>
+      
+                  </div>
+                  <div class="inner-form">
+                    <div class="label">Packaging type</div>
+                    <select class="cus" id="type1">
+                      <option value="1000" >Bags</option>
+                      <option value="2000" >Plates</option>
+                      <option value="2500" selected>Mugs</option>
+                      <option value="2000" > Paper Bundles </option>
+                      <option value="800" >Soap</option>
+                  </select>
+                  </div>
+                </div>
+            
+                <div class="middle-form">
+                  <div class="inner-form">
+                    <div class="label">Extras</div>
+                    <input type="checkbox" id="Greeting Card" />Eco Friendly Greeting Cards</br>
+                      <input type="checkbox" id="Packaging" />Eco Friendly Packaging</br>
+                      <input type="checkbox" id="Decorations"/>Eco Friendly Decorations</br>
+                      
+                  </div>
+                </div>
+            
+               
+            
+                <br>
+              <button type="button" onclick="display()" >ADD TO ORDER</button>
+              <button type="button" onclick="confmsg()">PLACE ORDER</button>
+            <br><br>
+      
+            <form id="show" style="display: none;">
+              <table id="tbOrder" width="900px" border="1px">
+                  <tr><th colspan="7">Current Order Details</th></tr>
+                  <tr><td style="font-weight:bold">Order No</td>
+                      <td style="font-weight:bold">Eco-Products choice</td>
+                      <td style="font-weight:bold">Packaging type</td>
+                      <td style="font-weight:bold">Extras - Greeting Card</td>
+                      <td style="font-weight:bold">Extras - Packaging</td>
+                      <td style="font-weight:bold">Extras - Decorations</td>
+          
+                      <td style="font-weight:bold">Total Amount</td>
+                  </tr>
+              </table>
+              </br>
+              <p> Grand Total:</p><input type="text" id="lblgrandTotal" /> LKR
+          </form>
+              </div>
+            </div>
+            
+           
+        </body>
+        </html> 
+            
+            
